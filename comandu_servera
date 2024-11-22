@@ -1,0 +1,12 @@
+ssh-keygen -R 192.168.50.138
+ C:\Users\XE\.ssh\known_hosts
+ ssh pi@192.168.50.138
+
+перехід до root
+sudo -i
+або
+sudo su
+
+/установка docker на ubuntu
+
+sudo apt-get update
