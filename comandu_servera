@@ -1,6 +1,9 @@
 ssh-keygen -R 192.168.50.138
  C:\Users\XE\.ssh\known_hosts
- ssh pi@192.168.50.138
+ http://192.168.50.138/
+
+
+ssh pi:192.168.50.138
 
 перехід до root
 sudo -i
@@ -10,3 +13,20 @@ sudo su
 /установка docker на ubuntu
 
 sudo apt-get update
+
+/отримати доступ до каталогу /root:
+sudo cd /root
+
+зайти в папку root
+cd /root
+
+створити папку projects
+mkdir projects
+
+зайти в папку
+cd project
+
+установка гіт
+apt-get install git
+
+ls подивитись вмістиме
