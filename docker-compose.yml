@@ -1,4 +1,4 @@
-version: '3'
+version: "3"
 
 services:
   frontend:
@@ -40,7 +40,7 @@ services:
       - realworld-docker-network
 
   api_db:
-    image: mongo:latest
+    image: mongo:4.2
     container_name: realworld-docker-api-db
     volumes:
       - mongodb_api:/data/db
@@ -48,7 +48,7 @@ services:
       - realworld-docker-network
 
   auth_db:
-    image: mongo:latest
+    image: mongo:4.2
     container_name: realworld-docker-auth-db
     volumes:
       - mongodb_auth:/data/db
@@ -76,4 +76,3 @@ volumes:
 networks:
   realworld-docker-network:
     driver: bridge
-
